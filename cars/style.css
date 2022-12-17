@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.container__section {
+    width: 100%;
+    display: flex;
+    margin: 20px 20px 0;
+    justify-content: space-around;
+}
+.logo {
+    display: flex;
+}
+.logo span {
+    color: yellow;
+    font-weight: 700;
+    font-size: 30px;
+}
+.logo p {
+    color: rgb(18, 18, 75);
+    font-weight: 700;
+    font-size: 30px;
+}
+.container__section ul{
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+.container__section ul li {
+    font-size: 19px;
+    margin: 8px 20px 0;
+}
+.container__section ul li a {
+    color: rgb(18, 18, 75);
+}
+.container__section ul li a:hover {
+    color: yellow;
+    transition: 0.5s;
+}
+.container__btn button {
+    width: 140px;
+    height: 30px;
+    margin: 7px 20px 0;
+    background-color: yellow;
+    border: none;
+    border-radius: 4px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+}
+.container__btn button:hover{
+    background-color: rgb(18, 18, 75);
+    color: #fff;
+}
+.container__header h3 {
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;
+    margin: 60px 0;
+    color: rgb(18, 18, 75);
+    letter-spacing: 10px;
+    font-size: 55px;
+    text-transform: uppercase;
+}
+.container__header img {
+    width: 700px;
+    display: block;
+    margin: auto;
+}
+.container__header button {
+    width: 160px;
+    height: 30px;
+    background-color: yellow;
+    border: none;
+    border-radius: 4px;
+    font-size: large;
+    font-weight: 600;
+    display: block;
+    margin: 30px 610px 40px;
+}
+/* <!-- --------------------------Form ------------------------ --> */
+
+.form {
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.116);
+    align-items: center;
+    display: flex;
+    padding: 20px 150px 0;
+    flex-wrap: wrap;
+}
+.form__box {
+    align-items: center;
+    display: flex;
+    background-color: #fff;
+    box-shadow: 5px 2px 7px -1px;
+    border-radius: 5px;
+}
+.form__box {
+    width: 300px;
+    height: 80px;
+    margin: 20px;
+}
+.form__icon {
+    margin: 0 0 0 10px;
+}
+.form__icon img {
+    width: 60px;
+    padding: 20px;
+    background-color: rgb(206, 191, 191);
+    border-radius: 50%;
+}
+.form__title h2 {
+    padding: 0 9px 0;
+    color: orange;
+    font-weight: 700;
+}
+.form__title p {
+    padding: 4px 10px 0;
+    font-size: 19px;
+    
+}
